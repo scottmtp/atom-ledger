@@ -1,0 +1,22 @@
+{
+  "name": "atom-ledger",
+  "main": "./lib/atom-ledger",
+  "version": "0.1.0",
+  "description": "A simple Atom package for ledger-cli",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "atom-ledger:toggle-status",
+      "atom-ledger:toggle-status-all",
+      "atom-ledger:next-entry"
+    ]
+  },
+  "repository": "https://github.com/atom/atom-ledger",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
