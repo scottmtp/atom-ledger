@@ -9,3 +9,10 @@ The package contains three commands:
 'ctrl-alt-a': Toggle status of all transactions in file
 ```
 The grammar was converted from the [Ledger TextMate](https://github.com/lifepillar/Ledger.tmbundle) bundle using `apm`.
+
+### Installation
+
+```
+cd ~/.atom/packages
+git clone https://github.com/scottmtp/atom-ledger.git
+```
